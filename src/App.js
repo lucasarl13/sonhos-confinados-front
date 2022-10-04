@@ -28,7 +28,7 @@ function App() {
           <input type="search" onChange={(e) => onKeyUp(e)} value={query} placeholder={"digite sua query"} />
           <button type="submit">Enviar</button>
         </form>
-        {result === "Query inválida"
+        {result === "Infelizmente Query inválida"
           ? result
           : result.map((r, i) => (
               <div>
